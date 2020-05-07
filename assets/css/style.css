@@ -1,11 +1,53 @@
-
-
-
-
+body {
+    font-family: 'Kanit', sans-serif !important;
+    background-image: url('../img/fondo.jpeg');
+    background-size: top;
+    
+    
+}
+body h1 {
+    font-weight: 700;
+    color: aliceblue;
+}
+hr {
+    background-color: #ffffff;
+}
+#experience h2 {
+    color: #ffffff;
+    font-weight: 700 !important;
+    font-size: 3.5rem;
+}
 
 .hero-section {
     background-image: url('../img/DSC02376.JPG');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 5rem;
+    padding-top: 30rem;
+    height: 100%; 
     
+}
+
+#about, #last-works {
+    background-color: #ffffff;
+    line-height: 2rem;
+}
+#last-works h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+
+footer h2{
+    color: #ffffff;
+    font-weight: 700;
+    
+}
+
+@media screen and (max-width: 400px) {
+    #about {
+        display: none;
+    }
+   
 }
